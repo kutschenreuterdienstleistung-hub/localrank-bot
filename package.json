@@ -1,0 +1,19 @@
+{
+  "name": "localrank-bot",
+  "version": "1.0.0",
+  "description": "LocalRank - Google Maps Lead Generation & GBP Optimization",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.0",
+    "express": "^4.19.2",
+    "pdfkit": "^0.15.0",
+    "resend": "^3.5.0",
+    "stripe": "^16.8.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
